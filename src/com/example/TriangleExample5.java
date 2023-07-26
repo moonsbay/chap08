@@ -79,7 +79,9 @@ public class TriangleExample5 {
 		s = new Cross();
 		drawShape(s);
 		
-		
+		if(s instanceof Triangle1) {
+			Triangle1 t = (Triangle1)s;
+		}
 	}
 
 }
